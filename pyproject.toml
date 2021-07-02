@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-pycharm"
-version = "0.1.1"
+version = "0.1.2"
 description = "App for Django to run any Python script within Django context"
 authors = ["nouseforacode <10090277+nouseforacode@users.noreply.github.com>"]
 license = "MIT"
@@ -12,6 +12,7 @@ repository = "https://github.com/nouseforacode/django-pycharm"
 [tool.poetry.dependencies]
 python = "^3.8"
 Django = "^3.2.4"
+xmltodict = "^0.12.0"
 
 [tool.poetry.dev-dependencies]
 

@@ -21,3 +21,7 @@ INSTALLED_APPS += ['django_pycharm']
 ```shell
 python manage.py runscript <your_script.py>
 ```
+
+```shell
+python manage.py install_pycharm_commands
+```
